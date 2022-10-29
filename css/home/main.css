@@ -10,7 +10,7 @@
   grid-template-columns: 2fr 1fr;
   box-sizing: border-box;
   gap: 40px;
-  padding: 60px 180px 40px 180px;
+  padding: 0px 180px 40px 180px;
 }
 
 #homeimg{
