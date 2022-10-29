@@ -38,6 +38,7 @@
   letter-spacing: 4px;
   text-transform: uppercase;
   padding: 18px 30px;
+  transition: .5s;
 }
 
 .main-new a:hover{
@@ -88,13 +89,19 @@
  
 }
 
+@media (max-width:600px){
+  .main-container{
+  padding-top: 0px;
+  }
+}
+
 @media (max-width:450px){
   .main-new{
     align-items: initial;
   }
   
   .main-new h1{
-    max-width: initial;
+    max-width:  10ch;
   }
 }
 

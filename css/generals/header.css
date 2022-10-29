@@ -18,6 +18,12 @@
 .nav-list{
   display: flex;
   gap: 40px;
+ 
+}
+
+.nav-list a{
+  padding: 12px 0px;
+  transition: .2s;
 }
 
 .nav-item a:hover{
@@ -84,6 +90,7 @@
   }
   .header-container{
     padding-top: 20px;
+    
     flex-direction: initial;
    
     }

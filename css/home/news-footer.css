@@ -7,6 +7,7 @@
 
 .news-footer-item{
 display: flex;
+align-items: center;
 
 }
 
@@ -18,7 +19,11 @@ display: flex;
 }
 .news-footer-item-content p {
  max-width: 50ch;
+ 
+}
 
+.news-footer-item-content h3{
+  transition: .3s;
 }
 .news-footer-item-content h3:hover{
   color: var(--color-p2);
